@@ -11,4 +11,3 @@ components:
     reference: >-
       https://raw.githubusercontent.com/vitaliy-guliy/che-cheia-branding-example/master/che-editor.meta.yaml
 apiVersion: 1.0.0
-commands:
