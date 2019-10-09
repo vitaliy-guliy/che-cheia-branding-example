@@ -1,0 +1,11 @@
+{
+    "name": "RedHat",
+    "logo": "logo.png",
+    "description": "Welcome To RedHat IDE",
+    "links": {
+        "RedHat": "https://www.redhat.com/en",
+        "RedHat Wikipedia": "https://uk.wikipedia.org/wiki/Red_Hat",
+        "Eclipse Che": "https://www.eclipse.org/che/",
+        "Che-Theia": "https://github.com/eclipse/che-theia"
+    }
+}
