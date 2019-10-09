@@ -1,37 +1,14 @@
 metadata:
   name: che-theia-all
 projects:
-  - name: che-theia
+  - name: che-cheia-branding-example
     source:
-      location: 'https://github.com/eclipse/che-theia.git'
-      type: git
-      branch: master
-  - name: theia
-    source:
-      location: 'https://github.com/theia-ide/theia.git'
+      location: 'https://github.com/vitaliy-guliy/che-cheia-branding-example.git'
       type: git
       branch: master
 components:
-  - mountSources: true
-    endpoints:
-      - name: theia-dev-flow
-        attributes:
-          protocol: http
-          public: 'true'
-        port: 3010
-    memoryLimit: 3Gi
-    type: dockerimage
-    image: 'eclipse/che-theia-dev:next'
-    alias: che-dev
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/vitaliy-guliy/che-cheia-branding-sample/master/che-editor.meta.yaml
+      https://raw.githubusercontent.com/vitaliy-guliy/che-cheia-branding-example/master/che-editor.meta.yaml
 apiVersion: 1.0.0
 commands:
-  - name: init ... DEV che-theia
-    actions:
-      - workdir: /projects/theia
-        type: exec
-        command: |
-          che:theia init
-        component: che-dev
