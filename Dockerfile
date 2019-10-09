@@ -8,11 +8,6 @@
 # Contributors:
 #   Red Hat, Inc. - initial API and implementation
 
-###
-# Builder Image
-#
-# FROM node:10.16-alpine
-
 FROM eclipse/che-theia:next
 
 ADD product.json ${HOME}/product.json
