@@ -15,5 +15,7 @@
 
 FROM eclipse/che-theia:next
 
-ADD customize ${HOME}/customize
-ENV PRODUCT_JSON=${HOME}/customize/product.json
+ADD product.json ${HOME}/product.json
+ADD logo.png ${HOME}/logo.png
+
+ENV PRODUCT_JSON=${HOME}/product.json
