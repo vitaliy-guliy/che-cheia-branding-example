@@ -10,7 +10,7 @@
 
 FROM eclipse/che-theia:next
 
+ADD CodeReady ${HOME}/CodeReady
 ADD product.json ${HOME}/product.json
-ADD logo.png ${HOME}/logo.png
 
 ENV PRODUCT_JSON=${HOME}/product.json
