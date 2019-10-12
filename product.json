@@ -1,11 +1,22 @@
 {
-    "name": "CodeReady Workspaces",
-    "logo": "CodeReady/CodeReady.png",
-    "description": "Red Hat CodeReady Workspaces",
+    "icon": "CodeReady/CodeReady.png",
+    "logo": {
+        "dark": "CodeReady/CodeReady_Workspaces_Light.png",
+        "light": "CodeReady/CodeReady_Workspaces_Dark.png"
+    },
+    "name": "Red Hat CodeReady Workspaces",
+    "welcome": {
+        "title": "Welcome to Your Workspace",
+        "links": ["website", "documentation"]
+    },
     "links": {
-        "RedHat": "https://www.redhat.com/en",
-        "RedHat Wikipedia": "https://uk.wikipedia.org/wiki/Red_Hat",
-        "Eclipse Che": "https://www.eclipse.org/che/",
-        "Che-Theia": "https://github.com/eclipse/che-theia"
+        "website": {
+            "name": "Discover CodeReady Workspaces",
+            "url": "https://developers.redhat.com/products/codeready-workspaces/overview"
+        },
+        "documentation": {
+            "name": "Browse Documentation",
+            "url": "https://www.redhat.com/docs"
+        }
     }
 }
