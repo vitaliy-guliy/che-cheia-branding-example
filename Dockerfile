@@ -10,7 +10,6 @@
 
 FROM eclipse/che-theia:next
 
-ADD CodeReady ${HOME}/CodeReady
-ADD product.json ${HOME}/product.json
+COPY branding ${HOME}/branding
 
-ENV PRODUCT_JSON=${HOME}/product.json
+ENV PRODUCT_JSON=${HOME}/branding/product.json
