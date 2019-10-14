@@ -1,10 +1,10 @@
 {
+    "name": "Red Hat CodeReady Workspaces",
     "icon": "CodeReady/CodeReady.png",
     "logo": {
         "dark": "CodeReady/CodeReady_Workspaces_Light.png",
         "light": "CodeReady/CodeReady_Workspaces_Dark.png"
     },
-    "name": "Red Hat CodeReady Workspaces",
     "welcome": {
         "title": "Welcome to Your Workspace",
         "links": ["website", "documentation"]
