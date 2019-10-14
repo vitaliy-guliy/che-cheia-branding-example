@@ -3,11 +3,11 @@ metadata:
 projects:
   - name: che-cheia-branding-example
     source:
-      location: 'https://github.com/vitaliy-guliy/che-cheia-branding-example.git'
+      location: 'https://github.com/vitaliy-guliy/che-theia-branding-example.git'
       type: git
       branch: master
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/vitaliy-guliy/che-cheia-branding-example/master/che-editor.meta.yaml
+      https://raw.githubusercontent.com/vitaliy-guliy/che-theia-branding-example/master/che-editor.meta.yaml
 apiVersion: 1.0.0
